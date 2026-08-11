@@ -1,0 +1,14 @@
+{
+  "clean_transaction_rows": 1055238,
+  "valid_sales_rows": 1029609,
+  "valid_sales_invoices": 40911,
+  "known_purchasing_customers": 5878,
+  "products_sold": 4745,
+  "countries": 43,
+  "gross_sales_revenue": 20913891.468,
+  "negative_return_value": 1523788.38,
+  "average_invoice_value": 511.2046018919117,
+  "median_invoice_value": 301.88,
+  "minimum_invoice_date": "2009-12-01 07:45:00",
+  "maximum_invoice_date": "2011-12-09 12:50:00"
+}

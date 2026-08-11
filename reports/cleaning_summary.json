@@ -1,0 +1,38 @@
+{
+  "input": {
+    "raw_rows": 1067371
+  },
+  "cleaning": {
+    "exact_duplicates_removed": 12133,
+    "rows_after_deduplication": 1055238,
+    "rows_with_customer_id": 812368,
+    "rows_without_customer_id": 242870,
+    "cancelled_rows": 19433,
+    "negative_quantity_rows": 22889,
+    "zero_quantity_rows": 0,
+    "negative_price_rows": 5,
+    "zero_price_rows": 6191,
+    "return_or_reversal_rows": 22890,
+    "rows_requiring_review": 25629
+  },
+  "output_datasets": {
+    "transactions_clean_rows": 1055238,
+    "sales_transactions_rows": 1029609,
+    "customer_transactions_rows": 812368,
+    "customer_sales_rows": 793609
+  },
+  "business_overview": {
+    "unique_known_customers": 5942,
+    "unique_sales_customers": 5878,
+    "valid_sales_revenue": 20913891.468,
+    "known_customer_sales_revenue": 17685460.638,
+    "minimum_invoice_date": "2009-12-01 07:45:00",
+    "maximum_invoice_date": "2011-12-09 12:50:00"
+  },
+  "rules": {
+    "duplicates": "Exact duplicate rows were removed while retaining the first occurrence.",
+    "missing_customer_ids": "Rows without customer IDs were retained for general sales analysis but excluded from customer-level datasets.",
+    "returns_and_cancellations": "Returns and cancellations were retained in the complete and customer-transaction datasets, but excluded from valid-sales datasets.",
+    "zero_or_negative_prices": "Rows with non-positive prices were retained for auditing but excluded from valid-sales datasets."
+  }
+}

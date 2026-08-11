@@ -1,0 +1,94 @@
+{
+  "dataset_overview": {
+    "rows": 1067371,
+    "columns": 9,
+    "memory_usage_mb": 138.67,
+    "minimum_invoice_date": "2009-12-01 07:45:00",
+    "maximum_invoice_date": "2011-12-09 12:50:00"
+  },
+  "business_entities": {
+    "unique_invoices": 53628,
+    "unique_products": 5305,
+    "unique_customers": 5942,
+    "unique_countries": 43
+  },
+  "missing_values": {
+    "invoice": 0,
+    "stock_code": 0,
+    "description": 4382,
+    "quantity": 0,
+    "invoice_date": 0,
+    "unit_price": 0,
+    "customer_id": 243007,
+    "country": 0,
+    "source_period": 0
+  },
+  "missing_percentages": {
+    "invoice": 0.0,
+    "stock_code": 0.0,
+    "description": 0.4105,
+    "quantity": 0.0,
+    "invoice_date": 0.0,
+    "unit_price": 0.0,
+    "customer_id": 22.7669,
+    "country": 0.0,
+    "source_period": 0.0
+  },
+  "duplicates": {
+    "exact_duplicate_rows": 12133,
+    "exact_duplicate_percentage": 1.1367
+  },
+  "transaction_quality": {
+    "cancelled_rows": 19494,
+    "cancelled_percentage": 1.8264,
+    "negative_quantity_rows": 22950,
+    "zero_quantity_rows": 0,
+    "negative_price_rows": 5,
+    "zero_price_rows": 6202,
+    "cancelled_with_positive_quantity": 1,
+    "negative_quantity_without_cancellation_code": 3457
+  },
+  "numeric_statistics": {
+    "quantity": {
+      "count": 1067371.0,
+      "mean": 9.9388984711033,
+      "std": 172.7057940767534,
+      "min": -80995.0,
+      "25%": 1.0,
+      "50%": 3.0,
+      "75%": 10.0,
+      "max": 80995.0
+    },
+    "unit_price": {
+      "count": 1067371.0,
+      "mean": 4.64938772741624,
+      "std": 123.5530587214632,
+      "min": -53594.36,
+      "25%": 1.25,
+      "50%": 2.1,
+      "75%": 4.15,
+      "max": 38970.0
+    }
+  },
+  "rows_by_source_period": {
+    "2010-2011": 541910,
+    "2009-2010": 525461
+  },
+  "top_15_countries_by_rows": {
+    "United Kingdom": 981330,
+    "EIRE": 17866,
+    "Germany": 17624,
+    "France": 14330,
+    "Netherlands": 5140,
+    "Spain": 3811,
+    "Switzerland": 3189,
+    "Belgium": 3123,
+    "Portugal": 2620,
+    "Australia": 1913,
+    "Channel Islands": 1664,
+    "Italy": 1534,
+    "Norway": 1455,
+    "Sweden": 1364,
+    "Cyprus": 1176
+  }
+}
