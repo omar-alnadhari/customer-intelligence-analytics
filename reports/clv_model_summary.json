@@ -1,0 +1,36 @@
+{
+  "observation_end": "2011-12-09 12:50:00",
+  "customers": 5878,
+  "holdout_customers": 4937,
+  "holdout_days": 191,
+  "holdout_mae": 1.0783059574863216,
+  "holdout_rmse": 1.84288586042603,
+  "holdout_actual_purchases": 8111.0,
+  "holdout_predicted_purchases": 7960.962190321356,
+  "holdout_aggregate_error_pct": -1.8498065550319864,
+  "gamma_gamma_eligible_customers": 4189,
+  "frequency_monetary_correlation": 0.023282487041150535,
+  "expected_revenue_clv_12m_total": 9556553.96929232,
+  "expected_revenue_clv_12m_mean": 1625.8172795665737,
+  "expected_revenue_clv_12m_median": 574.0834958876055,
+  "clv_tier_cutoffs": {
+    "p50": 574.0834958876055,
+    "p80": 1688.553306317368,
+    "p95": 4873.605779478628
+  },
+  "monthly_discount_rate": 0.0,
+  "clv_definition": "Expected future revenue over 12 months; not historical revenue and not profit.",
+  "bgnbd_map_parameters": {
+    "alpha": 59.18807135206568,
+    "phi_dropout": 0.045128305639590374,
+    "kappa_dropout": 2.311788420854398,
+    "r": 0.6376690404495293,
+    "a": 0.10432709443038325,
+    "b": 2.207461326424015
+  },
+  "gamma_gamma_map_parameters": {
+    "p": 5.641368952635338,
+    "q": 2.3316273656832833,
+    "v": 103.49708978483933
+  }
+}

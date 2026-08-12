@@ -1,0 +1,6 @@
+decision_status,customers
+reactivation_outside_churn_scope,2401
+nonpositive_scenario_value,2294
+selected,708
+below_policy_risk_floor,413
+positive_economics_not_funded,62

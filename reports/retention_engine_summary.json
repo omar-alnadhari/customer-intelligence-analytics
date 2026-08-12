@@ -1,0 +1,35 @@
+{
+  "decision_date": "2011-12-10 00:00:00",
+  "all_customers": 5878,
+  "churn_model_eligible_customers": 3477,
+  "outside_churn_model_scope_customers": 2401,
+  "candidate_customers": 770,
+  "selected_customers": 708,
+  "campaign_budget": 10000.0,
+  "campaign_spend": 4515.0,
+  "campaign_capacity": 1000,
+  "scenario_expected_retention_benefit": 11989.48808782074,
+  "scenario_expected_net_benefit": 7474.488087820741,
+  "top_target_scenario_net_benefit_share_pct": 60.649308160425775,
+  "binding_constraints": [
+    "Automated nurture capacity"
+  ],
+  "mean_current_churn_probability": 0.53060529207357,
+  "median_current_churn_probability": 0.5568367687248924,
+  "decision_status_counts": {
+    "reactivation_outside_churn_scope": 2401,
+    "nonpositive_scenario_value": 2294,
+    "selected": 708,
+    "below_policy_risk_floor": 413,
+    "positive_economics_not_funded": 62
+  },
+  "selected_action_counts": {
+    "Automated nurture": 500,
+    "Personalized offer": 154,
+    "High-touch value protection": 45,
+    "Service recovery": 9
+  },
+  "optimization_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "feature_parity_test_date": "2011-09-01 00:00:00",
+  "feature_parity_rows": 2772
+}

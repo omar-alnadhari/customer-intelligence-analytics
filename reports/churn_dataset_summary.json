@@ -1,0 +1,11 @@
+{
+  "prediction_days": 90,
+  "eligibility_days": 180,
+  "snapshot_rows": 48079,
+  "unique_customers": 5236,
+  "snapshots": 16,
+  "churn_observations": 24490,
+  "overall_churn_rate": 0.5093699952162066,
+  "first_snapshot": "2010-06-01 00:00:00",
+  "last_snapshot": "2011-09-01 00:00:00"
+}

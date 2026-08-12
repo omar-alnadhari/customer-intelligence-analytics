@@ -1,0 +1,37 @@
+{
+  "decision_date": "2011-12-10 00:00:00",
+  "decision_config": {
+    "gross_margin_rate": 0.3,
+    "campaign_budget": 10000.0,
+    "campaign_capacity": 1000,
+    "policy_risk_floor": 0.2,
+    "selection_objective": "Maximize total scenario expected net benefit subject to budget, total capacity, and action capacities."
+  },
+  "action_assumptions": {
+    "Automated nurture": {
+      "intervention_cost": 1.0,
+      "assumed_recoverable_share": 0.01,
+      "capacity": 500
+    },
+    "Personalized offer": {
+      "intervention_cost": 10.0,
+      "assumed_recoverable_share": 0.03,
+      "capacity": 300
+    },
+    "Service recovery": {
+      "intervention_cost": 25.0,
+      "assumed_recoverable_share": 0.06,
+      "capacity": 100
+    },
+    "High-touch value protection": {
+      "intervention_cost": 50.0,
+      "assumed_recoverable_share": 0.08,
+      "capacity": 100
+    }
+  },
+  "saved_churn_model_threshold": 0.31000000000000005,
+  "churn_prediction_horizon_days": 90,
+  "churn_model_eligibility_days": 180,
+  "causal_disclaimer": "Recoverable shares are scenario assumptions, not measured causal uplift. Validate with randomized experiments before activation.",
+  "activation_disclaimer": "The campaign file is a planning shortlist. Apply consent, contactability, suppression, channel, and offer-eligibility rules."
+}

@@ -1,0 +1,5 @@
+clv_value_tier,distribution_band,lower_bound_exclusive,upper_bound_inclusive
+Developing,Bottom 50%,0.0,574.0834958876055
+Core,50th–80th percentile,574.0834958876055,1688.553306317368
+High,80th–95th percentile,1688.553306317368,4873.605779478628
+Strategic,Top 5%,4873.605779478628,inf

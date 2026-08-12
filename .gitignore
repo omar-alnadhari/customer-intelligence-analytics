@@ -2,17 +2,30 @@
 .venv/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
 
 # Jupyter
 .ipynb_checkpoints/
 
+# Local numerical/compiler caches
+**/*customer_intelligence_pytensor*/
+*.nbi
+*.nbc
+
 # Raw and generated data
 data/raw/*
+!data/raw/README.md
 data/interim/*
 data/processed/*
 
 # Trained models
 models/*
+!models/README.md
 
 # Environment variables
 .env
